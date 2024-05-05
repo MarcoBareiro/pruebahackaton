@@ -3,10 +3,15 @@
 El Ministerio de Agricultura y Ganadería en conjunto con la Dirección de meteorología e hidrología del Paraguay están trabajando para encontrar una solución a las perdidas de cultivos ocasionadas por el cambio abrupto del clima de la región. Es por esto, que se pone en contacto con ustedes para desarrollar una página que permita alertar a los productores sobre posibles fenómenos meteorológico que perjudique la producción. 
 
 ## Requerimientos funcionales
-**Descripción General:** Desarrollar y diseñar una página web que permita mostrar a los productores el pronostico extendido de los departamentos estudiados en el país (Central, Boquerón, Caaguazú). La 
+**Descripción General:** Desarrollar y diseñar una página web que permita mostrar a los productores, el pronóstico extendido de los departamentos estudiados en el país, que por el momento son: Central, Boquerón, Caaguazú. La página debe estar preparada para mostrar mas departamentos a medida que se vayan obteniendo los datos en un futuro. 
+El usuario debe ser capaz de seleccionar un departamentos y poder visualizar el pronostico extendido.
+El pronóstico extendido debe mostrar todos las variables meteorológicas obtenidas: temperatura, clima, viento, visibilidad, probabilidad de precipitación y el volumen de lluvia predicho.
+Se espera que la temperatura pueda visualizarse en Celsius y Fahrenheit. (Fahrenheit debe ser calculado en base al celsius)
+El diseño de la página debe contar con imágenes alucivas al estado del tiempo. Los posibles valores esperados son (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve). Por supuesto, se espera de la creatividad del diseñador para mostrar cada una de la variables meteorológicas que se tienen lectura de una forma concisa y entendible.
+
 
 ## Set de datos
-Se provee un API REST público donde se detalla el pronostico extendido de los próximos 3 días, incluyendo además, el día que se tomó la medición, correspondiente a cada departamento estudiado (Central, Caaguazú, Boquerón) bajo la URL https://xxxx.xxxx/xxx. 
+Se provee un API REST público donde se detalla el pronostico extendido de los próximos 3 días, incluyendo además, el día de hoy, correspondiente a cada departamento estudiado (Central, Caaguazú, Boquerón) bajo la URL https://xxxx.xxxx/xxx. 
 Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
 
 ### Ejemplo de respuesta de API en formato JSON
