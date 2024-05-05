@@ -104,7 +104,7 @@ Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
          - `tipo` Posibles valores (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve)
          - `descripcion` Descripción del tipo de clima
        - `viento`
-         - `velocidad` Velocidad del viento. Medidos en metros/seg
+         - `velocidad` Velocidad del viento. Medidos en kilometros/hora
          - `direccion` Dirección del viento. Medidos en grados
        - `visibilidad` Visibilidad media. Medidos en metros.
        - `probabilidad_precipitacion` Los valores del parámetro varían entre 0 y 1, donde 0 es igual al 0%, 1 es igual al 100%
