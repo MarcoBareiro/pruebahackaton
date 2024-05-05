@@ -34,7 +34,7 @@
                     "visibilidad": 5000,
                     "probabilidad_precipitacion": 0.99,
                     "lluvia": {
-                        "volumen_1h": 0.40
+                        "volumen_1h": 0.4
                     }
                 },
                 {
@@ -86,7 +86,7 @@
                     "visibilidad": 10000,
                     "probabilidad_precipitacion": 0.15,
                     "lluvia": {
-                        "volumen_1h": 0.00
+                        "volumen_1h": 0
                     }
                 },
                 {
@@ -137,19 +137,19 @@
                     },
                     "clima": [
                         {
-                            "id": 3,
-                            "tipo": "nublado_parcialemente",
-                            "description": "Parcialmente Nublado"
+                            "id": 5,
+                            "tipo": "tormenta_electrica",
+                            "description": "Tormenta Electrica"
                         }
                     ],
                     "viento": {
-                        "velocidad": 15.15,
+                        "velocidad": 80.15,
                         "direccion": 30
                     },
-                    "visibilidad": 9000,
-                    "probabilidad_precipitacion": 0.51,
+                    "visibilidad": 6000,
+                    "probabilidad_precipitacion": 90.51,
                     "lluvia": {
-                        "volumen_1h": 0.30
+                        "volumen_1h": 8.3
                     }
                 },
                 {
@@ -189,7 +189,7 @@
                     },
                     "clima": [
                         {
-                            "id": 3,
+                            "id": 4,
                             "tipo": "soleado",
                             "description": "Caluroso"
                         }
@@ -201,7 +201,7 @@
                     "visibilidad": 10000,
                     "probabilidad_precipitacion": 0.15,
                     "lluvia": {
-                        "volumen_1h": 0.00
+                        "volumen_1h": 0
                     }
                 },
                 {
@@ -230,7 +230,7 @@
                         "volumen_1h": 0.02
                     }
                 }
-            ]    
+            ]
         },
         {
             "id": 13,
@@ -264,7 +264,7 @@
                     "visibilidad": 10000,
                     "probabilidad_precipitacion": 0.43,
                     "lluvia": {
-                        "volumen_1h": 0.20
+                        "volumen_1h": 0.2
                     }
                 },
                 {
@@ -288,7 +288,7 @@
                         "direccion": 67
                     },
                     "visibilidad": 5000,
-                    "probabilidad_precipitacion": 30.60,
+                    "probabilidad_precipitacion": 30.6,
                     "lluvia": {
                         "volumen_1h": 3.43
                     }
@@ -345,7 +345,7 @@
                         "volumen_1h": 0.01
                     }
                 }
-            ] 
+            ]
         }
     ]
 }
