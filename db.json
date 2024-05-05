@@ -23,8 +23,8 @@
                     "clima": [
                         {
                             "id": 1,
-                            "tipo": "Rain",
-                            "description": "light rain"
+                            "tipo": "lluvia",
+                            "description": "lluvia"
                         }
                     ],
                     "viento": {
