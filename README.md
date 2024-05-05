@@ -1,4 +1,8 @@
-# Ejemplo de respuesta de API en formato JSON
+# Set de datos
+Se provee un API REST público donde se detalla el pronostico extendido de los próximos 3 días correspondiente a cada departamento estudiado (Central, Caaguazú, Boquerón) bajo la URL https://xxxx.xxxx/xxx. 
+Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
+
+## Ejemplo de respuesta de API en formato JSON
 ```
 {
     "cod": "200",
@@ -76,7 +80,7 @@
 }
 ```
 
-# Campos de respuesta API en formato JSON
+## Campos de respuesta API en formato JSON
 
  - `cod` Parámetro interno
  - `message`Parámetro interno
