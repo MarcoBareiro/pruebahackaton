@@ -124,7 +124,113 @@
             "coord": {
                 "lat": -22.125705,
                 "lon": -60.737641
-            }
+            },
+            "pronostico_extendido_list": [
+                {
+                    "fecha_hora_txt": "2024-05-11 06:00:00",
+                    "dia_text": "hoy",
+                    "main": {
+                        "temp": 27.35,
+                        "temp_min": 23.35,
+                        "temp_max": 35.29,
+                        "humedad": 90
+                    },
+                    "clima": [
+                        {
+                            "id": 3,
+                            "tipo": "nublado_parcialemente",
+                            "description": "Parcialmente Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 15.15,
+                        "direccion": 30
+                    },
+                    "visibilidad": 9000,
+                    "probabilidad_precipitacion": 0.51,
+                    "lluvia": {
+                        "volumen_1h": 0.30
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-12 06:00:00",
+                    "dia_text": "domingo",
+                    "main": {
+                        "temp": 33.84,
+                        "temp_min": 28.32,
+                        "temp_max": 39.08,
+                        "humedad": 15
+                    },
+                    "clima": [
+                        {
+                            "id": 4,
+                            "tipo": "soleado",
+                            "description": "Caluroso"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 10.3,
+                        "direccion": 51
+                    },
+                    "visibilidad": 9000,
+                    "probabilidad_precipitacion": 0.02,
+                    "lluvia": {
+                        "volumen_1h": 0.01
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-13 06:00:00",
+                    "dia_text": "lunes",
+                    "main": {
+                        "temp": 30.07,
+                        "temp_min": 25.72,
+                        "temp_max": 40.08,
+                        "humedad": 5
+                    },
+                    "clima": [
+                        {
+                            "id": 3,
+                            "tipo": "soleado",
+                            "description": "Caluroso"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.5,
+                        "direccion": 15
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.15,
+                    "lluvia": {
+                        "volumen_1h": 0.00
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-14 06:00:00",
+                    "dia_text": "martes",
+                    "main": {
+                        "temp": 35.87,
+                        "temp_min": 29.54,
+                        "temp_max": 44.01,
+                        "humedad": 10
+                    },
+                    "clima": [
+                        {
+                            "id": 4,
+                            "tipo": "soleado",
+                            "description": "Caluroso"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.5,
+                        "direccion": 45.4
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.05,
+                    "lluvia": {
+                        "volumen_1h": 0.02
+                    }
+                }
+            ]    
         },
         {
             "id": 13,
@@ -133,7 +239,10 @@
             "coord": {
                 "lat": -25.460147,
                 "lon": -56.026884
-            }
+            },
+            "pronostico_extendido_list": [
+                
+            ] 
         }
     ]
 }
