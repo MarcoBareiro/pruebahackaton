@@ -101,19 +101,19 @@ Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
 	 - `pronostico_extendido_list`
 		 - `fecha_hora_txt`fecha y hora del momento que se tomó las medidas en formato texto
 		 - `dia_text`el día en formato texto. Puede tener como valor **hoy** que hace relación al día de la medición
-	         - `main`
-		 	- `temp`Temperatura. Unidad predeterminada, medidas en grados celsius
-		 	- `temp_min`Temperatura mínima en el momento del cálculo, medidas en grados celsius
-		 	- `temp_max`Temperatura máxima en el momento del cálculo, medidas en grados celsius
-		 	- `humedad`Medidas en porcentaje (%)
-	     	 - `clima`
-		 	- `id`Identificador del clima
-		 	- `tipo` Posibles valores (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve)
-		 	- `descripcion` Descripción del tipo de clima
-	         - `viento`
-		 	- `velocidad` Velocidad del viento. Medidos en kilometros/hora
-		 	- `direccion` Dirección del viento. Medidos en grados
-	       	 - `visibilidad` Visibilidad media. Medidos en metros.
-	       	 - `probabilidad_precipitacion` Los valores del parámetro varían entre 0 y 1, donde 0 es igual al 0%, 1 es igual al 100%
-	       	 - `lluvia`
-		 	- `volumen_1h` Volumen de lluvia de la última hora, medida en milimetros
+       - `main`
+         - `temp`Temperatura. Unidad predeterminada, medidas en grados celsius
+         - `temp_min`Temperatura mínima en el momento del cálculo, medidas en grados celsius
+         - `temp_max`Temperatura máxima en el momento del cálculo, medidas en grados celsius
+         - `humedad`Medidas en porcentaje (%)
+       - `clima`
+         - `id`Identificador del clima
+         - `tipo` Posibles valores (nublado_total, soleado, lluvia, tormenta_electrica, nublado_parcialemente, nieve)
+         - `descripcion` Descripción del tipo de clima
+       - `viento`
+         - `velocidad` Velocidad del viento. Medidos en kilometros/hora.
+         - `direccion` Dirección del viento. Medidos en grados
+       - `visibilidad` Visibilidad media. Medidos en metros.
+       - `probabilidad_precipitacion` Los valores del parámetro varían entre 0 y 1, donde 0 es igual al 0%, 1 es igual al 100%
+       - `lluvia`
+         - `volumen_1h` Volumen de lluvia de la última hora, medida en milimetros
