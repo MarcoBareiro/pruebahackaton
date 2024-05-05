@@ -15,10 +15,10 @@
                     "fecha_hora_txt": "2022-08-30 16:00:00",
                     "dia_text": "hoy",
                     "main": {
-                        "temp": 296.34,
-                        "temp_min": 296.34,
-                        "temp_max": 298.24,
-                        "humedad": 50
+                        "temp": 21.34,
+                        "temp_min": 21.34,
+                        "temp_max": 30.24,
+                        "humedad": 91
                     },
                     "clima": [
                         {
