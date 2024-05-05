@@ -18,29 +18,29 @@ Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
             },
             "pronostico_extendido_list": [
                 {
-                    "fecha_hora_txt": "2022-08-30 16:00:00",
+                    "fecha_hora_txt": "2024-05-11 06:00:00",
                     "dia_text": "hoy",
                     "main": {
-                        "temp": 296.34,
-                        "temp_min": 296.34,
-                        "temp_max": 298.24,
-                        "humedad": 50
+                        "temp": 21.34,
+                        "temp_min": 21.34,
+                        "temp_max": 30.24,
+                        "humedad": 100
                     },
                     "clima": [
                         {
                             "id": 1,
-                            "tipo": "Rain",
-                            "description": "light rain"
+                            "tipo": "lluvia",
+                            "description": "lluvia"
                         }
                     ],
                     "viento": {
-                        "velocidad": 1.06,
+                        "velocidad": 40.05,
                         "direccion": 66
                     },
-                    "visibilidad": 10000,
-                    "probabilidad_precipitacion": 0.32,
+                    "visibilidad": 5000,
+                    "probabilidad_precipitacion": 0.99,
                     "lluvia": {
-                        "volumen_1h": 0.13
+                        "volumen_1h": 0.4
                     }
                 },
 		{
