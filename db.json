@@ -241,7 +241,110 @@
                 "lon": -56.026884
             },
             "pronostico_extendido_list": [
-                
+                {
+                    "fecha_hora_txt": "2024-05-11 06:00:00",
+                    "dia_text": "hoy",
+                    "main": {
+                        "temp": 15.46,
+                        "temp_min": 10.35,
+                        "temp_max": 19.87,
+                        "humedad": 70
+                    },
+                    "clima": [
+                        {
+                            "id": 4,
+                            "tipo": "soleado",
+                            "description": "Completamente Despejado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.15,
+                        "direccion": 20
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.43,
+                    "lluvia": {
+                        "volumen_1h": 0.20
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-12 06:00:00",
+                    "dia_text": "domingo",
+                    "main": {
+                        "temp": 12.84,
+                        "temp_min": 9.22,
+                        "temp_max": 14.08,
+                        "humedad": 60
+                    },
+                    "clima": [
+                        {
+                            "id": 2,
+                            "tipo": "nublado_total",
+                            "description": "Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 80.3,
+                        "direccion": 67
+                    },
+                    "visibilidad": 5000,
+                    "probabilidad_precipitacion": 30.60,
+                    "lluvia": {
+                        "volumen_1h": 3.43
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-13 06:00:00",
+                    "dia_text": "lunes",
+                    "main": {
+                        "temp": 5.07,
+                        "temp_min": -1.72,
+                        "temp_max": 9.08,
+                        "humedad": 60
+                    },
+                    "clima": [
+                        {
+                            "id": 6,
+                            "tipo": "nieve",
+                            "description": "Nieve"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 30.5,
+                        "direccion": 15
+                    },
+                    "visibilidad": 1000,
+                    "probabilidad_precipitacion": 90,
+                    "lluvia": {
+                        "volumen_1h": 3.09
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-14 06:00:00",
+                    "dia_text": "martes",
+                    "main": {
+                        "temp": 1.09,
+                        "temp_min": -2.54,
+                        "temp_max": 5.01,
+                        "humedad": 91
+                    },
+                    "clima": [
+                        {
+                            "id": 6,
+                            "tipo": "nieve",
+                            "description": "Nieve"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 20.5,
+                        "direccion": 77.4
+                    },
+                    "visibilidad": 900,
+                    "probabilidad_precipitacion": 4.05,
+                    "lluvia": {
+                        "volumen_1h": 0.01
+                    }
+                }
             ] 
         }
     ]
