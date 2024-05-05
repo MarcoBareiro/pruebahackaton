@@ -12,13 +12,13 @@
             },
             "pronostico_extendido_list": [
                 {
-                    "fecha_hora_txt": "2022-08-30 16:00:00",
+                    "fecha_hora_txt": "2024-05-11 06:00:00",
                     "dia_text": "hoy",
                     "main": {
                         "temp": 21.34,
                         "temp_min": 21.34,
                         "temp_max": 30.24,
-                        "humedad": 91
+                        "humedad": 100
                     },
                     "clima": [
                         {
@@ -28,13 +28,91 @@
                         }
                     ],
                     "viento": {
-                        "velocidad": 1.06,
+                        "velocidad": 40.05,
                         "direccion": 66
                     },
-                    "visibilidad": 10000,
+                    "visibilidad": 5000,
+                    "probabilidad_precipitacion": 0.99,
+                    "lluvia": {
+                        "volumen_1h": 0.40
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-12 06:00:00",
+                    "dia_text": "domingo",
+                    "main": {
+                        "temp": 19.54,
+                        "temp_min": 15.32,
+                        "temp_max": 22.08,
+                        "humedad": 91
+                    },
+                    "clima": [
+                        {
+                            "id": 2,
+                            "tipo": "numblado_total",
+                            "description": "Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 20.3,
+                        "direccion": 55
+                    },
+                    "visibilidad": 7000,
                     "probabilidad_precipitacion": 0.32,
                     "lluvia": {
                         "volumen_1h": 0.13
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-13 06:00:00",
+                    "dia_text": "lunes",
+                    "main": {
+                        "temp": 22.87,
+                        "temp_min": 19.22,
+                        "temp_max": 26.08,
+                        "humedad": 85
+                    },
+                    "clima": [
+                        {
+                            "id": 3,
+                            "tipo": "nublado_parcialemente",
+                            "description": "Parcialmente Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 40.5,
+                        "direccion": 78
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.15,
+                    "lluvia": {
+                        "volumen_1h": 0.00
+                    }
+                },
+                {
+                    "fecha_hora_txt": "2024-05-14 06:00:00",
+                    "dia_text": "martes",
+                    "main": {
+                        "temp": 24.87,
+                        "temp_min": 20.56,
+                        "temp_max": 30.08,
+                        "humedad": 80
+                    },
+                    "clima": [
+                        {
+                            "id": 3,
+                            "tipo": "nublado_parcialemente",
+                            "description": "Parcialmente Nublado"
+                        }
+                    ],
+                    "viento": {
+                        "velocidad": 70.5,
+                        "direccion": 95.4
+                    },
+                    "visibilidad": 10000,
+                    "probabilidad_precipitacion": 0.05,
+                    "lluvia": {
+                        "volumen_1h": 0.02
                     }
                 }
             ]
