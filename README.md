@@ -1,4 +1,17 @@
 # Hackathon ```<code/>```
+## Consideraciones iniciales
+En la cuenta de github deben crear un nuevo repositorio que debe ser nombrado igual que el nombre del equipo y debe estar **publico**.
+Dentro del repositorio, incluir un archivo readme.md que debe contener los suguientes datos:
+- El nombre del equipo 
+- El nombre de los integrantes del equipo con sus correos personales
+- Herramientas de programación utilizados (framework, pluggins, etc).
+
+Una ves terminado el desarrollo, deben levantar todo el proyecto al github del equipo y enviar un correo a xxxx@excelsis.com.py con el asunto **Hackathon - Code**.
+Dentro del correo deben incluir:
+- El nombre del equipo
+- El nombre de los integrantes del equipo 
+- La URL del repositorio github para su posterior evaluación técnica.
+
 ## Enunciado
 El Ministerio de Agricultura y Ganadería en conjunto con la Dirección de meteorología e hidrología del Paraguay están trabajando para encontrar una solución a las perdidas de cultivos ocasionadas por el cambio abrupto del clima de la región. Es por esto, que se pone en contacto con ustedes para desarrollar una página que permita alertar a los productores sobre posibles fenómenos meteorológico que perjudique la producción. 
 
@@ -163,3 +176,8 @@ Cada equipo deberá consumir estos datos y utilizarlo dentro de la aplicación.
        - `probabilidad_precipitacion` Los valores del parámetro varían entre 0 y 1, donde 0 es igual al 0%, 1 es igual al 100%
        - `lluvia`
          - `volumen_1h` Volumen de lluvia de la última hora, medida en milimetros
+
+## Recursos digitales
+Dentro del repositorio, en la carpeta llamada *recursos_digitales* encontrarán lo siguiente:
+- Un mockup básico que les servirá como guía de lo que se espera en el desarrollo de la página.
+- La presentación del desafío hecho en powerpoint.
